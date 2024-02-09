@@ -2,6 +2,8 @@
 main:
   - title: "Papers & Talks"
     url: /papers-talks
+  - title: "CV"
+    url: /wp-content/uploads/CV%20Andrici%20Cezar%20Constantin.pdf
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
