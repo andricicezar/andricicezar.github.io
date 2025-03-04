@@ -8,10 +8,13 @@ toc: true
 ---
 
 <h2 id="#papers">Publications, drafts and extended abstracts</h2>
+<h3  id="2025" class="pubyear">2025</h3>
+
+| **Draft** | [**SecRef<sup>*</sup>: Securely Sharing Mutable References Between Verified and Unverified Code in F<sup>*</sup>**](https://doi.org/10.1145/3632916).<br/> *Cezar-Constantin Andrici*, Danel Ahman, Cătălin Hrițcu, Ruxandra Icleanum, Guido Martínez, Exequiel Rivas, and Théo Winterhalter.<br/>[PrePrint](https://arxiv.org/abs/2503.00404). |
 
 <h3  id="2024" class="pubyear">2024</h3>
 
-| **POPL'24** | [**Securing Verified IO Programs Against Unverified Code in F<sup>★</sup>**](https://doi.org/10.1145/3632916).<br/> *Cezar-Constantin Andrici*, Ștefan Ciobâcă, Cătălin Hrițcu, Guido Martínez, Exequiel Rivas,&nbsp;Éric Tanter and Théo Winterhalter. *The artifact received the Functional and Reusable badges.*<br/>[PrePrint](https://arxiv.org/abs/2303.01350). [Artifact](https://zenodo.org/doi/10.5281/zenodo.10125015) |
+| **POPL'24** | [**Securing Verified IO Programs Against Unverified Code in F<sup>★</sup>**](https://doi.org/10.1145/3632916).<br/> *Cezar-Constantin Andrici*, Ștefan Ciobâcă, Cătălin Hrițcu, Guido Martínez, Exequiel Rivas,&nbsp;Éric Tanter and Théo Winterhalter. *The artifact received the Functional and Reusable badges.*<br/>[PrePrint](https://arxiv.org/abs/2303.01350). [Video](https://www.youtube.com/watch?v=7jCChuyZHR4). [Artifact](https://zenodo.org/doi/10.5281/zenodo.10125015) |
 
 <h3  id="2022" class="pubyear">2022</h3>
 
