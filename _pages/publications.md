@@ -10,7 +10,7 @@ toc: true
 <h2 id="#papers">Publications, drafts and extended abstracts</h2>
 <h3  id="2025" class="pubyear">2025</h3>
 
-| **Draft** | [**SecRef<sup>*</sup>: Securely Sharing Mutable References Between Verified and Unverified Code in F<sup>*</sup>**](https://doi.org/10.1145/3632916).<br/> *Cezar-Constantin Andrici*, Danel Ahman, Cătălin Hrițcu, Ruxandra Icleanum, Guido Martínez, Exequiel Rivas, and Théo Winterhalter.<br/>[PrePrint](https://arxiv.org/abs/2503.00404). |
+| **Draft** | [**SecRef<sup>★</sup>: Securely Sharing Mutable References Between Verified and Unverified Code in F<sup>★</sup>**](https://doi.org/10.1145/3632916).<br/> *Cezar-Constantin Andrici*, Danel Ahman, Cătălin Hrițcu, Ruxandra Icleanum, Guido Martínez, Exequiel Rivas, and Théo Winterhalter.<br/>[PrePrint](https://arxiv.org/abs/2503.00404). |
 
 <h3  id="2024" class="pubyear">2024</h3>
 
