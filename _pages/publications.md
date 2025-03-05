@@ -10,7 +10,7 @@ toc: true
 <h2 id="#papers">Publications, drafts and extended abstracts</h2>
 <h3  id="2025" class="pubyear">2025</h3>
 
-| **Draft** | **SecRef<sup>★</sup>: Securely Sharing Mutable References Between Verified and Unverified Code in F<sup>★</sup>**.<br/> *Cezar-Constantin Andrici*, Danel Ahman, Cătălin Hrițcu, Ruxandra Icleanum, Guido Martínez, Exequiel Rivas, and Théo Winterhalter.<br/>[PrePrint](https://arxiv.org/abs/2503.00404). |
+| **Draft** | **SecRef<sup>★</sup>: Securely Sharing Mutable References Between Verified and Unverified Code in F<sup>★</sup>**.<br/> *Cezar-Constantin Andrici*, Danel Ahman, Cătălin Hrițcu, Ruxandra Icleanu, Guido Martínez, Exequiel Rivas, and Théo Winterhalter.<br/>[PrePrint](https://arxiv.org/abs/2503.00404). |
 
 <h3  id="2024" class="pubyear">2024</h3>
 
@@ -21,5 +21,3 @@ toc: true
 |  | [**Who Verifies the Verifiers? A Computer-Checked Implementation of the DPLL Algorithm in Dafny.**](https://doi.org/10.3390/math10132264)<br/> *Cezar-Constantin Andrici* and Ștefan Ciobâcă. In *Mathematics 2022*, 10(13), 2264. <br/> [Artifact](https://github.com/andricicezar/truesat) |
 | **HOPE'22** | [**Verifying non-terminating programs with IO in F<sup>★</sup> (Extended Abstract)**](https://theowinterhalter.github.io/res/iodiv-hope.pdf).<br/> *Cezar-Constantin Andrici*, Théo Winterhalter, Cătălin Hrițcu and Exequiel Rivas. At the 10th ACM SIGPLAN Workshop on Higher-Order Programming with Effects. <br/> [Slides](https://cezarandrici.com/wp-content/uploads/2022/09/HOPE22_Andrici_Slides.pdf). [Video](https://www.youtube.com/watch?v=i6gfZteKAAw). [Artifact](https://github.com/andricicezar/fstar-io/tree/hope-submission) |
 | **TYPES'22** | [**Partial Dijkstra Monads for All (Extended Abstract)**](https://types22.inria.fr/files/2022/06/TYPES_2022_paper_18.pdf). <br/> Théo Winterhalter, *Cezar-Constantin Andrici*, Cătălin Hrițcu, Kenji Maillard, Guido Martínez and Exequiel Rivas. At the 28th International Conference on Types for Proofs and Programs. <br/> [Slides](https://types22.inria.fr/files/2022/06/TYPES_2022_slides_18.pdf). [Artifact](https://github.com/TheoWinterhalter/pdm4all/releases/tag/types2022) |
-
-<h2 id="#talks">Talks</h2>
