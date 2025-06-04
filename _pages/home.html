@@ -5,14 +5,46 @@ permalink: /
 ---
 
 
-<p>I’m a Ph.D. candidate at <a href="https://mpi-sp.org">MPI-SP</a>, Bochum, Germany working with Cătălin Hriţcu.
+<p>I’m a Ph.D. candidate at <a href="https://mpi-sp.org">MPI-SP</a>, Bochum, Germany working with <a href="https://catalin-hritcu.github.io/">Cătălin Hriţcu</a>.
 My research focuses on building the first secure compiler for verified code, by developing a secure compiler from the proof-oriented programming language F<sup>*</sup> to OCaml.
 Existing (insecure) compilers erase all the annotations with which the code was verified, thus, making the resulting compiled code vulnerable when linked against adversarial code.</p>
 
-<!-- 
-<h3 class="archive__subtitle">Projects</h3>
+<h3 class="archive__subtitle">Interests</h3>
 
-<ul>
-	<li>Looking for Dijkstra Monads to practically verify that terminating, non-terminating or concurrent programs satisfy trace properties. Maybe even hyperproperties?</li>
-	<li>Secure compilation of verfied code in F*</li>
-</ul> -->
+<p>
+    <strong>Verification of effectful code using monads.</strong>
+    In a pure depedently-typed language, like Rocq or F<sup>*</sup>, one can write pure terminating computations and verify them.
+    If one wants to write effectful computations (e.g., with state, non-termination, input/output (IO), etc.),
+    then one has to give a representation to those computations. One common way is to do a shallow embedding, 
+    by embeding the effect in the language using a monad.
+    F<sup>*</sup> has this idea at its core and uses a construction called the Dijkstra monad.
+    Such constructions were used successfully to verify big developments and realistic projects.
+    My work in this space was involved into finding the pre-conditional effect (specific to F<sup>*</sup>),
+    and building Dijkstra monads for terminating/non-terminating IO and Monotonic State.
+    These results are useful because the effects F<sup>*</sup> supports out of the box,
+    do not have a full representation, and my hope is that one would be able to deaxomatize
+    all of them.
+    Right now, I am interested in finding a Dijkstra monad for the effects Div, Ghost, 
+    Monotonic State with higher-order stores and concurrency.
+</p>
+
+<p>
+    <strong>Minimizing the Trusted Computing Base (TCB) of F<sup>*</sup>.</strong>
+    The language F<sup>*</sup> was used successfully in the verification of some big
+    projects, some of them milestones in the verification community.
+    One of the big features of F<sup>*</sup> is that it is easy to have primitive
+    extraction for effectful computations to OCaml, meaning that the monadic representation
+    of the computation is erased during extraction and the monadic operations are replaced
+    with the corresponding OCaml operations.
+    This extraction, however, it is part of the TCB of F<sup>*</sup> so it cannot be trusted to be correct.
+    Moreover, if the verified extracted code gets linked to unverified code, then the chance
+    that there is a bug, or an attack, is even bigger, so it may be even insecure (the logical
+    invariants proved about the verified code are broken by the unverified code).
+    To bring some trust to this, my work proposes SCIO<sup>*</sup> and SecRef<sup>*</sup>,
+    two secure compilation frameworks for verification of IO programs, and respectively stateful programs,
+    that can be safely linked with unverified code. The long-term goal of the project
+    is to have secure interoperability between F<sup>*</sup> and OCaml.
+    <br/>
+    I am interested to also explore if one could give up on the effect system of F<sup>*</sup>
+    and instead use the typing abstractions provided by the module system.
+</p>
