@@ -7,8 +7,10 @@ permalink: /
 
 <p>I’m a Ph.D. candidate at <a href="https://mpi-sp.org">MPI-SP</a>, Bochum, Germany working with <a href="https://catalin-hritcu.github.io/">Cătălin Hriţcu</a>.
 My Ph.D. project is about secure interoperability between verified F* programs and unverified ML code.</p>
+I earned my Bachelor’s and Master’s degrees in *Computer Science* from Alexandru Ioan Cuza University of Iași, Romania.
+I also hold a Master’s degree in *Regional Development* from the same university.
 
-<h3 id="research">Research</h3>
+<h3 id="research">Research interests</h3>
 
 <p>
     <strong>Verification of effectful code.</strong>
@@ -50,16 +52,26 @@ My Ph.D. project is about secure interoperability between verified F* programs a
 <h3 id="papers">Publications, drafts and extended abstracts</h3>
 
 * [**SecRef\*: Securely Sharing Mutable References Between Verified and Unverified Code in F\***](https://arxiv.org/abs/2503.00404).<br/> *Cezar-Constantin Andrici*, Danel Ahman, Cătălin Hrițcu, Ruxandra Icleanu, Guido Martínez, Exequiel Rivas, and Théo Winterhalter.
-* [**Securing Verified IO Programs Against Unverified Code in F\***](https://arxiv.org/abs/2303.01350).<br/> *Cezar-Constantin Andrici*, Ștefan Ciobâcă, Cătălin Hrițcu, Guido Martínez, Exequiel Rivas,&nbsp;Éric Tanter and Théo Winterhalter. <br/>In [51st ACM SIGPLAN Symposium on Principles of Programming Languages (POPL)](https://doi.org/10.1145/3632916), January 2024. *The artifact received the Functional and Reusable badges.*<br/>[Video](https://www.youtube.com/watch?v=7jCChuyZHR4). [Artifact](https://zenodo.org/doi/10.5281/zenodo.10125015)
+* [**Securing Verified IO Programs Against Unverified Code in F\***](https://arxiv.org/abs/2303.01350).<br/> *Cezar-Constantin Andrici*, Ștefan Ciobâcă, Cătălin Hrițcu, Guido Martínez, Exequiel Rivas,&nbsp;Éric Tanter and Théo Winterhalter. <br/>In [51st ACM SIGPLAN Symposium on Principles of Programming Languages (POPL)](https://doi.org/10.1145/3632916), January 2024.<br/>[Artifact](https://zenodo.org/doi/10.5281/zenodo.10125015) - *The artifact received the Functional and Reusable badges.*
 * [**A Verified Implementation of the DPLL Algorithm in Dafny**](https://doi.org/10.3390/math10132264)<br/> *Cezar-Constantin Andrici* and Ștefan Ciobâcă. In Mathematics, 10(13), 2264, June 2022. <br/> [Artifact](https://github.com/andricicezar/truesat)
-* [**Verifying non-terminating programs with IO in F\* (Extended Abstract)**](https://theowinterhalter.github.io/res/iodiv-hope.pdf).<br/> *Cezar-Constantin Andrici*, Théo Winterhalter, Cătălin Hrițcu and Exequiel Rivas.<br/> At the 10th ACM SIGPLAN Workshop on Higher-Order Programming with Effects (HOPE), September 2022. <br/> [Slides](https://cezarandrici.com/wp-content/uploads/2022/09/HOPE22_Andrici_Slides.pdf). [Video](https://www.youtube.com/watch?v=i6gfZteKAAw). [Artifact](https://github.com/andricicezar/fstar-io/tree/hope-submission)
-* [**Partial Dijkstra Monads for All (Extended Abstract)**](https://types22.inria.fr/files/2022/06/TYPES_2022_paper_18.pdf). <br/> Théo Winterhalter, *Cezar-Constantin Andrici*, Cătălin Hrițcu, Kenji Maillard, Guido Martínez and Exequiel Rivas.<br/>At the 28th International Conference on Types for Proofs and Programs (TYPES), June 2022. <br/> [Slides](https://types22.inria.fr/files/2022/06/TYPES_2022_slides_18.pdf). [Artifact](https://github.com/TheoWinterhalter/pdm4all/releases/tag/types2022)
+* [**Verifying non-terminating programs with IO in F\* (Extended Abstract)**](https://theowinterhalter.github.io/res/iodiv-hope.pdf).<br/> *Cezar-Constantin Andrici*, Théo Winterhalter, Cătălin Hrițcu and Exequiel Rivas.<br/> At the 10th ACM SIGPLAN Workshop on Higher-Order Programming with Effects (HOPE), September 2022. <br/> [Artifact](https://github.com/andricicezar/fstar-io/tree/hope-submission)
+* [**Partial Dijkstra Monads for All (Extended Abstract)**](https://types22.inria.fr/files/2022/06/TYPES_2022_paper_18.pdf). <br/> Théo Winterhalter, *Cezar-Constantin Andrici*, Cătălin Hrițcu, Kenji Maillard, Guido Martínez and Exequiel Rivas.<br/>At the 28th International Conference on Types for Proofs and Programs (TYPES), June 2022. <br/> [Artifact](https://github.com/TheoWinterhalter/pdm4all/releases/tag/types2022)
 * [**Verifying the DPLL Algorithm in Dafny**](https://arxiv.org/abs/1909.01743)<br/> *Cezar-Constantin Andrici* and Ștefan Ciobâcă. In Proceedings Third Symposium on
 Working Formal Methods, EPTCS 303, pp. 3-15, 2019.
 
 <h3 id="papers">Talks</h3>
 
-* **Securing Verified IO Programs Against Unverified Code in F\***.<br/>At the 51st ACM SIGPLAN Symposium on Principles of Programming Languages (POPL), January 2024 - [video](https://www.youtube.com/watch?v=7jCChuyZHR4), and,<br/>at the [F\* PoP Up Seminar](https://fstar-lang.org/popup/seminar.html), July 2023 - [video](https://www.youtube.com/watch?v=BFyKX1li8Zw).
+* **Securing Verified IO Programs Against Unverified Code in F\***.<br/>At the 51st ACM SIGPLAN Symposium on Principles of Programming Languages (POPL), January 2024 ([Video](https://www.youtube.com/watch?v=7jCChuyZHR4)), <br/>and an extended version at the [F\* PoP Up Seminar](https://fstar-lang.org/popup/seminar.html), July 2023 - ([video](https://www.youtube.com/watch?v=BFyKX1li8Zw)).
 * **Verifying non-terminating programs with IO in F\* (Extended Abstract)**.<br/> At the 10th ACM SIGPLAN Workshop on Higher-Order Programming with Effects (HOPE), September 2022. <br/> [Slides](https://cezarandrici.com/wp-content/uploads/2022/09/HOPE22_Andrici_Slides.pdf). [Video](https://www.youtube.com/watch?v=i6gfZteKAAw).
 * **Gradual Enforcement of IO Trace Properties at Student Research Competition**,<br/> At the 25th ACM SIGPLAN International Conference on Functional Programming (ICFP), August 2020.<br/> [Video](https://youtube.com/watch?v=fMkYhgFYQA0)
 * **Verification of IO programs in F\*** at Faculty of Computer Science, UAIC, January 2020.
+
+<h3 id="research">Teaching Assistant</h3>
+* Proofs are Programs, RUB, Bochum, WS 2024-2025
+* Functional Programming, RUB, Bochum, SS 2023-2024
+* Logics in Computer Science, UAIC, Iași, WS 2020-2021
+
+<h3 id="research">Scientific Service</h3>
+* Sub-reviewer at ICFP'25, POPL'24, SP'21
+* Member in Artifact Evaluation Committee at POPL'23
+* Student Volunteer at POPL'24, POPL'23, ICFP'22, PLDI'20, POPL'20, ETAPS'19, FROM'18
