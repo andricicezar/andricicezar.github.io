@@ -12,43 +12,39 @@ I also hold a Master’s degree in *Regional Development* from the same universi
 
 <h3 id="research">Research interests</h3>
 
-<p>
-    <strong>Verification of effectful code.</strong>
-    In a pure dependently-typed language, like Rocq or F\*, one can write pure terminating computations and verify them.
-    If one wants to write effectful computations (e.g., with state, non-termination, input/output (IO), etc.),
-    then one has to give a representation to those computations. One common way is to do a shallow embedding, 
-    by embedding the effect in the language using a monad.
-    F\* has this idea at its core and uses a construction called the Dijkstra monad.
-    Such constructions were used successfully to verify big developments and realistic projects.
-    My work in this space was involved into finding the pre-conditional effect (specific to F\*),
-    and building Dijkstra monads for terminating/non-terminating IO and Monotonic State.
-    These results are interesting because the effects F\* supports out of the box,
-    do not have a monadic representation (are axiomatized),
-    and if one finds a representation for each of them,
-    the TCB of F\* would be minimized.
-    Right now, I am interested in finding a monadic representation for the effects Div, Ghost, 
-    Monotonic State with higher-order stores, and Concurrency with IO.
-</p>
+**Verification of effectful code.**
+In a pure dependently-typed language, like Rocq or F\*, one can write pure terminating computations and verify them.
+If one wants to write effectful computations (e.g., with state, non-termination, input/output (IO), etc.),
+then one has to give a representation to those computations. One common way is to do a shallow embedding, 
+by embedding the effect in the language using a monad.
+F\* has this idea at its core and uses a construction called the Dijkstra monad.
+Such constructions were used successfully to verify big developments and realistic projects.
+My work in this space was involved into finding the pre-conditional effect (specific to F\*),
+and building Dijkstra monads for terminating/non-terminating IO and Monotonic State.
+These results are interesting because the effects F\* supports out of the box,
+do not have a monadic representation (are axiomatized),
+and if one finds a representation for each of them,
+the TCB of F\* would be minimized.
+Right now, I am interested in finding a monadic representation for the effects Div, Ghost, 
+Monotonic State with higher-order stores, and Concurrency with IO.
 
-<p>
-    <strong>Secure Compilation of F\*.</strong>
-    The language F\* was used successfully in the verification of some big
-    projects, some of them milestones in the verification community.
-    One of the big features of F\* is that it is easy to have primitive
-    extraction for effectful computations to OCaml, meaning that the monadic representation
-    of the computation is erased during extraction and the monad's operations are replaced
-    with the corresponding OCaml operations.
-    This extraction, however, it is part of the TCB of F\* so it cannot be trusted to be correct.
-    Moreover, if the verified extracted code gets linked to unverified code, then the chance
-    that there is a bug, or an attack, is even bigger, so it may be even insecure (the logical
-    invariants proved about the verified code are broken by the unverified code).
-    To bring some trust to this, my work proposes SCIO\* and SecRef\*,
-    two secure compilation frameworks for verification of IO programs, and respectively stateful programs,
-    that can be safely linked with unverified code. The long-term goal of the project
-    is to have secure interoperability between F\* and OCaml.
-    Another idea I am interested in, is to also explore if one could give up on the effect system of F\*
-    and instead use the typing abstractions provided by the module system.
-</p>
+**Secure Compilation of F\*.**
+The language F\* was used successfully in the verification of some big
+projects, some of them milestones in the verification community.
+One of the big features of F\* is that it is easy to have primitive
+extraction for effectful computations to OCaml, meaning that the monadic representation
+of the computation is erased during extraction and the monad's operations are replaced
+with the corresponding OCaml operations.
+This extraction, however, it is part of the TCB of F\* so it cannot be trusted to be correct.
+Moreover, if the verified extracted code gets linked to unverified code, then the chance
+that there is a bug, or an attack, is even bigger, so it may be even insecure (the logical
+invariants proved about the verified code are broken by the unverified code).
+To bring some trust to this, my work proposes SCIO\* and SecRef\*,
+two secure compilation frameworks for verification of IO programs, and respectively stateful programs,
+that can be safely linked with unverified code. The long-term goal of the project
+is to have secure interoperability between F\* and OCaml.
+Another idea I am interested in, is to also explore if one could give up on the effect system of F\*
+and instead use the typing abstractions provided by the module system.
 
 <h3 id="papers">Publications, drafts and extended abstracts</h3>
 
