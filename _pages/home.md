@@ -40,7 +40,7 @@ Moreover, if the verified extracted code gets linked to unverified code, then th
 of a bug, or an attack, so it may be even insecure (the logical
 invariants proved about the verified code are broken by the unverified code).
 To bring some trust to this, my work proposes SCIO\* and SecRef\*,
-two secure compilation frameworks for verification of IO programs, and respectively stateful programs,
+two secure compilation frameworks for verified IO programs, and respectively stateful programs,
 that can be safely linked with unverified code. The long-term goal of the project
 is to have secure interoperability between F\* and OCaml.
 <!-- Another idea I am interested in, is to also explore if one could give up on the effect system of F\*
