@@ -23,7 +23,7 @@ I also hold a Master’s degree in *Regional Development* from the same universi
     My work in this space was involved into finding the pre-conditional effect (specific to F*),
     and building Dijkstra monads for terminating/non-terminating IO and Monotonic State.
     These results are useful because the effects F* supports out of the box,
-    do not have a monadic representation, and my hope is that one would be able to find one
+    do not have a monadic representation, and my hope is to find one
     for all of them.
     Right now, I am interested in finding a Dijkstra monad for the effects Div, Ghost, 
     Monotonic State with higher-order stores and Concurrency with IO.
