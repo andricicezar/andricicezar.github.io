@@ -31,8 +31,8 @@ Monotonic State with higher-order stores, and Concurrency with IO.
 **Secure Compilation of F\*.**
 The language F\* was used successfully in the verification of some big
 projects, some of them milestones in the verification community.
-One of the big features of F\* is that it is easy to have primitive
-extraction for effectful computations to OCaml, meaning that the monadic representation
+One convenient feature of F\* is primitive
+extraction to OCaml of effectful computations, meaning that the monadic representation
 of the computation is erased during extraction and the monad's operations are replaced
 with the corresponding OCaml operations.
 This extraction, however, it is part of the TCB of F\* so it cannot be trusted to be correct.
