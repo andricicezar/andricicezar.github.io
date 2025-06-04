@@ -21,7 +21,7 @@ F\* has this idea at its core and uses a construction called the Dijkstra monad.
 Such constructions were used successfully to verify big developments and realistic projects.
 My work in this space was involved into finding the pre-conditional effect (specific to F\*),
 and building Dijkstra monads for terminating/non-terminating IO and Monotonic State.
-These results are interesting because the effects F\* supports out of the box,
+These results are interesting because the effects F\* supports out of the box
 do not have a monadic representation (are axiomatized),
 and if one finds a representation for each of them,
 the TCB of F\* would be minimized.
