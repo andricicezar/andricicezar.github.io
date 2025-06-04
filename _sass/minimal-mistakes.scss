@@ -57,3 +57,10 @@ a {
 .archive p, .archive li, .archive dl {
     font-size: 0.8em;
 }
+
+@media (min-width: 80em) {
+  .archive {
+    width: calc(100% - 300px);
+    padding-right: 0;
+  }
+}
