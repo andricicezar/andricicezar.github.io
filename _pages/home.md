@@ -43,8 +43,8 @@ To bring some trust to this, my work proposes SCIO\* and SecRef\*,
 two secure compilation frameworks for verification of IO programs, and respectively stateful programs,
 that can be safely linked with unverified code. The long-term goal of the project
 is to have secure interoperability between F\* and OCaml.
-Another idea I am interested in, is to also explore if one could give up on the effect system of F\*
-and instead use the typing abstractions provided by the module system.
+<!-- Another idea I am interested in, is to also explore if one could give up on the effect system of F\*
+and instead use the typing abstractions provided by the module system. -->
 
 <h3 id="papers">Publications, drafts and extended abstracts</h3>
 
