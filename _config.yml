@@ -113,7 +113,7 @@ analytics:
 author:
   name             : "Cezar-Constantin Andrici"
   avatar           : "/assets/images/poza_profil_square-300x300.jpg"
-  bio              : "PhD working on ways to practically verify code and to securely compile it."
+  bio              : "Ph.D. candidate interested in verification of effectful code and secure compilation."
   location         : "MPI-SP, Bochum (Germany)"
   email            :
   links:
