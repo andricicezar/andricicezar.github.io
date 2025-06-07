@@ -26,7 +26,7 @@ do not have a monadic representation (are axiomatized),
 and if one finds a representation for each of them,
 the TCB of F\* would be minimized.
 Right now, I am interested in finding a monadic representation for the effects Div, Ghost, 
-Monotonic State with higher-order stores, and Concurrency with IO.
+Monotonic State with cyclic higher-order stores, and Concurrency with IO.
 
 **Secure Compilation of F\*.**
 The language F\* was used successfully in the verification of some big
