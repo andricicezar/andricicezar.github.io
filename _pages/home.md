@@ -37,8 +37,8 @@ extraction to OCaml of effectful computations, meaning that the monadic represen
 of the computation is erased during extraction and the monad's operations are replaced
 with the corresponding OCaml operations.
 This extraction, however, it is part of the TCB of F\* so it is not verified to be correct.
-Moreover, if the verified extracted code gets linked to unverified code, then there is a chance
-of a bug, or an attack, so it may be also insecure (the logical
+This is problematic because if the verified extracted code gets linked to unverified code, then there is a chance
+of a bug or an attack, meaning it may be unsound or insecure (the logical
 invariants proved about the verified code are broken by the unverified code).
 To bring some trust to this, my work proposes SCIO\* and SecRef\*,
 two secure compilation frameworks for verified IO programs, and respectively stateful programs,
