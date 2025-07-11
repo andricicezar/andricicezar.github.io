@@ -23,8 +23,8 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : ""
-title_separator          : ""
+title                    : "Cezar-Constantin Andrici"
+title_separator          : "|"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Cezar-Constantin Andrici"
 description              : "PhD candidate @ MPI-SP"
