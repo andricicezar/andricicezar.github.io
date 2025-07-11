@@ -62,7 +62,7 @@ Working Formal Methods, EPTCS 303, pp. 3-15, 2019.
 
 * **Securing Verified IO Programs Against Unverified Code in F\***.<br/>At the 51st ACM SIGPLAN Symposium on Principles of Programming Languages (POPL), January 2024 ([video](https://www.youtube.com/watch?v=7jCChuyZHR4)), and an extended version at the [F\* PoP Up Seminar](https://fstar-lang.org/popup/seminar.html), July 2023 ([video](https://www.youtube.com/watch?v=BFyKX1li8Zw)).
 * **Verifying non-terminating programs with IO in F\* (Extended Abstract)**.<br/> At the 10th ACM SIGPLAN Workshop on Higher-Order Programming with Effects (HOPE), September 2022. <br/> [Slides](https://cezarandrici.com/wp-content/uploads/2022/09/HOPE22_Andrici_Slides.pdf). [Video](https://www.youtube.com/watch?v=i6gfZteKAAw).
-* **Gradual Enforcement of IO Trace Properties at Student Research Competition**,<br/> At the 25th ACM SIGPLAN International Conference on Functional Programming (ICFP), August 2020.<br/>:trophy: **First prize of ICFP-SRC 2020, graduate section**<br/> [Video](https://youtube.com/watch?v=fMkYhgFYQA0)
+* **Gradual Enforcement of IO Trace Properties at Student Research Competition**,<br/> At the 25th ACM SIGPLAN International Conference on Functional Programming (ICFP), August 2020.<br/>:trophy: **First place winner of ICFP SRC 2020, graduate section**<br/> [Video](https://youtube.com/watch?v=fMkYhgFYQA0)
 * **Verification of IO programs in F\*** at Faculty of Computer Science, UAIC, January 2020.
 
 <h3 id="research">Teaching Assistant</h3>
