@@ -15,7 +15,7 @@ I also hold a Master’s degree in *Regional Development* from the same universi
 **Verification of effectful code.**
 In a pure dependently-typed language, like Rocq or F\*, one can write pure terminating computations and verify them.
 If one wants to write effectful computations (e.g., with state, non-termination, input/output (IO), etc.),
-then one has to give a representation to those computations. One common way is to do a shallow embedding, 
+then one has to give a representation to those computations. One common way is to do a shallow embedding,
 by embedding the effect in the language using a monad.
 F\* has this idea at its core and uses a construction called the Dijkstra monad.
 Such constructions were used successfully to verify big developments and realistic projects.
@@ -25,7 +25,7 @@ These results are interesting because the effects F\* supports out of the box
 do not have a monadic representation (are axiomatized),
 and if one finds a representation for each of them,
 the TCB of F\* would be minimized.
-Right now, I am interested in finding a monadic representation for the effects Div, Ghost, 
+Right now, I am interested in finding a monadic representation for the effects Div, Ghost,
 Monotonic State with cyclic higher-order stores, and Concurrency with IO.
 
 **Secure Compilation of F\*.**
@@ -48,7 +48,8 @@ and instead use the typing abstractions provided by the module system. -->
 
 <h3 id="papers">Publications, drafts and extended abstracts</h3>
 
-* [**SecRef\*: Securely Sharing Mutable References Between Verified and Unverified Code in F\***](https://arxiv.org/abs/2503.00404).<br/> *Cezar-Constantin Andrici*, Danel Ahman, Cătălin Hrițcu, Ruxandra Icleanu, Guido Martínez, Exequiel Rivas, and Théo Winterhalter.
+* [**SecRef\*: Securely Sharing Mutable References between Verified and Unverified Code in F\***](https://arxiv.org/abs/2503.00404).<br/> *Cezar-Constantin Andrici*, Danel Ahman, Cătălin Hrițcu, Ruxandra Icleanu, Guido Martínez, Exequiel Rivas, and Théo Winterhalter. <br/>
+  In [ACM SIGPLAN International Conference on Functional Programming (ICFP)](https://doi.org/10.1145/3747522), October 2025.<br/>[Artifact](https://zenodo.org/records/15659350)
 * [**Securing Verified IO Programs Against Unverified Code in F\***](https://arxiv.org/abs/2303.01350).<br/> *Cezar-Constantin Andrici*, Ștefan Ciobâcă, Cătălin Hrițcu, Guido Martínez, Exequiel Rivas,&nbsp;Éric Tanter and Théo Winterhalter. <br/>In [51st ACM SIGPLAN Symposium on Principles of Programming Languages (POPL)](https://doi.org/10.1145/3632916), January 2024.<br/>[Artifact](https://zenodo.org/doi/10.5281/zenodo.10125015) - *The artifact received the Functional and Reusable badges.*
 * [**A Verified Implementation of the DPLL Algorithm in Dafny**](https://doi.org/10.3390/math10132264).<br/> *Cezar-Constantin Andrici* and Ștefan Ciobâcă. In Mathematics, 10(13), 2264, June 2022. <br/> [Artifact](https://github.com/andricicezar/truesat)
 * [**Verifying non-terminating programs with IO in F\* (Extended Abstract)**](https://theowinterhalter.github.io/res/iodiv-hope.pdf).<br/> *Cezar-Constantin Andrici*, Théo Winterhalter, Cătălin Hrițcu and Exequiel Rivas.<br/> At the 10th ACM SIGPLAN Workshop on Higher-Order Programming with Effects (HOPE), September 2022. <br/> [Artifact](https://github.com/andricicezar/fstar-io/tree/hope-submission)
@@ -60,13 +61,13 @@ Working Formal Methods, EPTCS 303, pp. 3-15, 2019.
 
 * **Securing Verified IO Programs Against Unverified Code in F\***.<br/>At the 51st ACM SIGPLAN Symposium on Principles of Programming Languages (POPL), January 2024 ([video](https://www.youtube.com/watch?v=7jCChuyZHR4)), and an extended version at the [F\* PoP Up Seminar](https://fstar-lang.org/popup/seminar.html), July 2023 ([video](https://www.youtube.com/watch?v=BFyKX1li8Zw)).
 * **Verifying non-terminating programs with IO in F\* (Extended Abstract)**.<br/> At the 10th ACM SIGPLAN Workshop on Higher-Order Programming with Effects (HOPE), September 2022. <br/> [Slides](https://cezarandrici.com/wp-content/uploads/2022/09/HOPE22_Andrici_Slides.pdf). [Video](https://www.youtube.com/watch?v=i6gfZteKAAw).
-* **Gradual Enforcement of IO Trace Properties at Student Research Competition**,<br/> At the 25th ACM SIGPLAN International Conference on Functional Programming (ICFP), August 2020.<br/> [Video](https://youtube.com/watch?v=fMkYhgFYQA0)
+* **Gradual Enforcement of IO Trace Properties at Student Research Competition**,<br/> At the 25th ACM SIGPLAN International Conference on Functional Programming (ICFP), August 2020.<br/>:trophy: **First prize of ICFP-SRC 2020, graduate section**<br/> [Video](https://youtube.com/watch?v=fMkYhgFYQA0)
 * **Verification of IO programs in F\*** at Faculty of Computer Science, UAIC, January 2020.
 
 <h3 id="research">Teaching Assistant</h3>
-* Proofs are Programs, RUB, Bochum, WS 2024-2025
-* Functional Programming, RUB, Bochum, SS 2023-2024
-* Logics in Computer Science, UAIC, Iași, WS 2020-2021
+* Proofs are Programs, RUB, Bochum, Fall 2024-2025
+* Functional Programming, RUB, Bochum, Summer 2023-2024
+* Logics in Computer Science, UAIC, Iași, Fall 2020-2021
 
 <h3 id="research">Scientific Service</h3>
 * Sub-reviewer at ICFP'25, POPL'24, SP'21
