@@ -48,6 +48,8 @@ and instead use the typing abstractions provided by the module system. -->
 
 <h3 id="papers">Publications, drafts and extended abstracts</h3>
 
+* [**Towards formally secure compilation of verified F\* programs against unverified ML contexts (Extended Abstract)**](/wp-content/uploads/publications/prisc26.pdf).<br/> *Cezar-Constantin Andrici*, Danel Ahman, Cătălin Hrițcu, Guido Martínez, Abigail Pribisova, Exequiel Rivas, and Théo Winterhalter. <br/>
+  
 * [**SecRef\*: Securely Sharing Mutable References between Verified and Unverified Code in F\***](https://arxiv.org/abs/2503.00404).<br/> *Cezar-Constantin Andrici*, Danel Ahman, Cătălin Hrițcu, Ruxandra Icleanu, Guido Martínez, Exequiel Rivas, and Théo Winterhalter. <br/>
   In [ACM SIGPLAN International Conference on Functional Programming (ICFP)](https://doi.org/10.1145/3747522), October 2025.<br/>[Slides :new:](./wp-content/uploads/ICFP2025-SecRef.pdf) | [Artifact](https://zenodo.org/records/15659350) - *The artifact received the Functional and Reusable badges.*
 * [**Securing Verified IO Programs Against Unverified Code in F\***](https://arxiv.org/abs/2303.01350).<br/> *Cezar-Constantin Andrici*, Ștefan Ciobâcă, Cătălin Hrițcu, Guido Martínez, Exequiel Rivas,&nbsp;Éric Tanter and Théo Winterhalter. <br/>In [51st ACM SIGPLAN Symposium on Principles of Programming Languages (POPL)](https://doi.org/10.1145/3632916), January 2024.<br/>[Artifact](https://zenodo.org/doi/10.5281/zenodo.10125015) - *The artifact received the Functional and Reusable badges.*
