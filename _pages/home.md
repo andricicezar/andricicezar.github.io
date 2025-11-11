@@ -71,6 +71,6 @@ Working Formal Methods, EPTCS 303, pp. 3-15, 2019.
 * Logics in Computer Science, UAIC, Iași, Fall 2020-2021
 
 <h3 id="research">Scientific Service</h3>
-* Sub-reviewer at ICFP'25, POPL'24, SP'21
-* Member in Artifact Evaluation Committee at POPL'23
+* Sub-reviewer at CPP'26, ICFP'25, POPL'24, SP'21
+* Member in Artifact Evaluation Committee at POPL'26, POPL'23
 * Student Volunteer at POPL'24, POPL'23, ICFP'22, PLDI'20, POPL'20, ETAPS'19, FROM'18
