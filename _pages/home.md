@@ -5,7 +5,7 @@ permalink: /
 ---
 
 
-I’m a Ph.D. candidate at [MPI-SP](https://mpi-sp.org), Bochum, Germany working with [Cătălin Hriţcu](https://catalin-hritcu.github.io/).
+I’m a Ph.D. student at [MPI-SP](https://mpi-sp.org), Bochum, Germany working with [Cătălin Hriţcu](https://catalin-hritcu.github.io/).
 My Ph.D. project is about secure interoperability between verified F\* programs and unverified ML code.
 I earned my Bachelor’s and Master’s degrees in *Computer Science* from Alexandru Ioan Cuza University of Iași, Romania.
 I also hold a Master’s degree in *Regional Development* from the same university.
