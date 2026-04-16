@@ -60,10 +60,10 @@ and instead use the typing abstractions provided by the module system. -->
 Working Formal Methods, EPTCS 303, pp. 3-15, 2019.
 
 <h3 id="papers">Talks</h3>
-* [**Secure extraction of​ verified effectful F\* programs to ML​**](./wp-content/uploads/slides/Aarhus2026-slides.pdf).<br/> *Cezar-Constantin Andrici*.
+* [**Secure extraction of​ verified effectful F\* programs to ML​**](./wp-content/uploads/slides/Aarhus2026-slides.pdf).
 <br/>At Aarhus University, April 13, 2026.
 <br/>[Slides :new:](./wp-content/uploads/slides/Aarhus2026-slides.pdf) 
-* [**Towards formally secure compilation of verified F\* programs against unverified ML contexts (Extended Abstract)**](/wp-content/uploads/publications/prisc26.pdf).<br/> *Cezar-Constantin Andrici*, Danel Ahman, Cătălin Hrițcu, Guido Martínez, Abigail Pribisova, Exequiel Rivas, and Théo Winterhalter.
+* [**Towards formally secure compilation of verified F\* programs against unverified ML contexts (Extended Abstract)**](/wp-content/uploads/publications/prisc26.pdf).
 <br/>At the 10th Workshop on Principles of Secure Compilation (PriSC), January 2026.
 <br/>[Slides](./wp-content/uploads/slides/PriSC2026-e2esciostar.pdf) 
 * **Securing Verified IO Programs Against Unverified Code in F\***.<br/>At the 51st ACM SIGPLAN Symposium on Principles of Programming Languages (POPL), January 2024 ([video](https://www.youtube.com/watch?v=7jCChuyZHR4)), and an extended version at the [F\* PoP Up Seminar](https://fstar-lang.org/popup/seminar.html), July 2023 ([video](https://www.youtube.com/watch?v=BFyKX1li8Zw)).
