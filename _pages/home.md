@@ -47,10 +47,9 @@ is to have secure interoperability between F\* and OCaml.
 and instead use the typing abstractions provided by the module system. -->
 
 <h3 id="papers">Publications, drafts and extended abstracts</h3>
-
-* [**Towards formally secure compilation of verified F\* programs against unverified ML contexts (Extended Abstract)**](/wp-content/uploads/publications/prisc26.pdf).<br/> *Cezar-Constantin Andrici*, Danel Ahman, Cătălin Hrițcu, Guido Martínez, Abigail Pribisova, Exequiel Rivas, and Théo Winterhalter.
-<br/>At the 10th Workshop on Principles of Secure Compilation (PriSC), January 2026.
-<br/>[Slides :new:](./wp-content/uploads/slides/PriSC2026-e2esciostar.pdf) 
+* [**Misquoted No More: Securely Extracting F\* programs with IO**](https://arxiv.org/pdf/2602.19973).<br/> *Cezar-Constantin Andrici*, Abigail Pribisova, Danel Ahman, Cătălin Hrițcu, Exequiel Rivas, and Théo Winterhalter.
+<br/>Under review.
+<br/>[Artifact](https://github.com/andricicezar/fstar-io/tree/icfp26/seiostar) 
 * [**SecRef\*: Securely Sharing Mutable References between Verified and Unverified Code in F\***](https://arxiv.org/abs/2503.00404).<br/> *Cezar-Constantin Andrici*, Danel Ahman, Cătălin Hrițcu, Ruxandra Icleanu, Guido Martínez, Exequiel Rivas, and Théo Winterhalter. <br/>
   In [ACM SIGPLAN International Conference on Functional Programming (ICFP)](https://doi.org/10.1145/3747522), October 2025.<br/>[Slides](./wp-content/uploads/slides/ICFP2025-SecRef.pdf) | [Artifact](https://zenodo.org/records/15659350) - *The artifact received the Functional and Reusable badges.*
 * [**Securing Verified IO Programs Against Unverified Code in F\***](https://arxiv.org/abs/2303.01350).<br/> *Cezar-Constantin Andrici*, Ștefan Ciobâcă, Cătălin Hrițcu, Guido Martínez, Exequiel Rivas,&nbsp;Éric Tanter and Théo Winterhalter. <br/>In [51st ACM SIGPLAN Symposium on Principles of Programming Languages (POPL)](https://doi.org/10.1145/3632916), January 2024.<br/>[Artifact](https://zenodo.org/doi/10.5281/zenodo.10125015) - *The artifact received the Functional and Reusable badges.*
@@ -61,7 +60,12 @@ and instead use the typing abstractions provided by the module system. -->
 Working Formal Methods, EPTCS 303, pp. 3-15, 2019.
 
 <h3 id="papers">Talks</h3>
-
+* [**Secure extraction of​ verified effectful F\* programs to ML​**](./wp-content/uploads/slides/Aarhus2026-slides.pdf).<br/> *Cezar-Constantin Andrici*.
+<br/>At Aarhus University, April 13, 2026.
+<br/>[Slides :new:](./wp-content/uploads/slides/Aarhus2026-slides.pdf) 
+* [**Towards formally secure compilation of verified F\* programs against unverified ML contexts (Extended Abstract)**](/wp-content/uploads/publications/prisc26.pdf).<br/> *Cezar-Constantin Andrici*, Danel Ahman, Cătălin Hrițcu, Guido Martínez, Abigail Pribisova, Exequiel Rivas, and Théo Winterhalter.
+<br/>At the 10th Workshop on Principles of Secure Compilation (PriSC), January 2026.
+<br/>[Slides](./wp-content/uploads/slides/PriSC2026-e2esciostar.pdf) 
 * **Securing Verified IO Programs Against Unverified Code in F\***.<br/>At the 51st ACM SIGPLAN Symposium on Principles of Programming Languages (POPL), January 2024 ([video](https://www.youtube.com/watch?v=7jCChuyZHR4)), and an extended version at the [F\* PoP Up Seminar](https://fstar-lang.org/popup/seminar.html), July 2023 ([video](https://www.youtube.com/watch?v=BFyKX1li8Zw)).
 * **Verifying non-terminating programs with IO in F\* (Extended Abstract)**.<br/> At the 10th ACM SIGPLAN Workshop on Higher-Order Programming with Effects (HOPE), September 2022. <br/> [Slides](https://cezarandrici.com/wp-content/uploads/2022/09/HOPE22_Andrici_Slides.pdf). [Video](https://www.youtube.com/watch?v=i6gfZteKAAw).
 * **Gradual Enforcement of IO Trace Properties at Student Research Competition**,<br/> At the 25th ACM SIGPLAN International Conference on Functional Programming (ICFP), August 2020.<br/>:trophy: **First place winner of ICFP SRC 2020, graduate section**<br/> [Video](https://youtube.com/watch?v=fMkYhgFYQA0)
