@@ -48,7 +48,7 @@ and instead use the typing abstractions provided by the module system. -->
 
 <h3 id="papers">Publications, drafts and extended abstracts</h3>
 * [**Misquoted No More: Securely Extracting F\* programs with IO**](https://arxiv.org/pdf/2602.19973).<br/> *Cezar-Constantin Andrici*, Abigail Pribisova, Danel Ahman, Cătălin Hrițcu, Exequiel Rivas, and Théo Winterhalter.
-<br/>Under review.
+<br/>In ACM SIGPLAN International Conference on Functional Programming (ICFP), August 2026.
 <br/>[Artifact](https://github.com/andricicezar/fstar-io/tree/icfp26/seiostar) 
 * [**SecRef\*: Securely Sharing Mutable References between Verified and Unverified Code in F\***](https://arxiv.org/abs/2503.00404).<br/> *Cezar-Constantin Andrici*, Danel Ahman, Cătălin Hrițcu, Ruxandra Icleanu, Guido Martínez, Exequiel Rivas, and Théo Winterhalter. <br/>
   In [ACM SIGPLAN International Conference on Functional Programming (ICFP)](https://doi.org/10.1145/3747522), October 2025.<br/>[Slides](./wp-content/uploads/slides/ICFP2025-SecRef.pdf) | [Artifact](https://zenodo.org/records/15659350) - *The artifact received the Functional and Reusable badges.*
