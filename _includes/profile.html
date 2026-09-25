@@ -1,0 +1,31 @@
+{%- comment -%}
+  Page header: photo, name, affiliation, short bio and contact details.
+  Name / role / affiliation / contact come from `author:` in _config.yml.
+  The bio prose below is plain HTML — edit it here.
+{%- endcomment -%}
+
+<header class="profile">
+
+  <div class="profile__photo">
+    <img src="{{ site.author.avatar | relative_url }}" alt="{{ site.author.name }}">
+  </div>
+
+  <div class="profile__body">
+    <h1 class="profile__name">{{ site.author.name }}</h1>
+
+    <div class="profile__intro">
+      <p>
+        I am a Ph.D. student at <a href="https://mpi-sp.org">MPI-SP</a>, Germany, until December 2026,
+        working with <a href="https://catalin-hritcu.github.io/">Cătălin Hriţcu</a>
+        on securing verified F* programs against linked unverified code.
+        Currently, I am also a research intern at Microsoft Research in Cambridge, UK,
+        working with <a href="https://www.sonho.fr/">Son Ho</a> on verification tools and proof automation for Rust programs.
+      </p>
+    </div>
+
+    <div class="profile__contact">
+      {% if site.author.email %}<div><span class="label">Email:</span> <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></div>{% endif %}
+    </div>
+  </div>
+
+</header>

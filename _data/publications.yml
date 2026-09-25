@@ -1,0 +1,73 @@
+# Publications, drafts and extended abstracts (newest first).
+# Rendered by _includes/entries.html — `venue` goes in the left gutter.
+# HTML is allowed in `authors`, `where` and `note`.
+# Wrap your own name in <span class="me">…</span> so it is underlined.
+
+- venue: 'ICFP 2026'
+  title: 'Misquoted No More: Securely Extracting F* programs with IO'
+  url: 'https://arxiv.org/pdf/2602.19973'
+  authors: '<span class="me">Cezar-Constantin Andrici</span>, Abigail Pribisova, Danel Ahman, Cătălin Hrițcu, Exequiel Rivas, and Théo Winterhalter.'
+  links:
+    - name: 'Artifact'
+      url: 'https://github.com/andricicezar/fstar-io/tree/icfp26/seiostar'
+
+- venue: 'ICFP 2025'
+  title: 'SecRef*: Securely Sharing Mutable References between Verified and Unverified Code in F*'
+  url: 'https://arxiv.org/abs/2503.00404'
+  authors: '<span class="me">Cezar-Constantin Andrici</span>, Danel Ahman, Cătălin Hrițcu, Ruxandra Icleanu, Guido Martínez, Exequiel Rivas, and Théo Winterhalter.'
+  links:
+    - name: 'DOI'
+      url: 'https://doi.org/10.1145/3747522'
+    - name: 'Slides'
+      url: '/wp-content/uploads/slides/ICFP2025-SecRef.pdf'
+    - name: 'Artifact'
+      url: 'https://zenodo.org/records/15659350'
+  note: 'The artifact received the Functional and Reusable badges.'
+
+- venue: 'POPL 2024'
+  title: 'Securing Verified IO Programs Against Unverified Code in F*'
+  url: 'https://arxiv.org/abs/2303.01350'
+  authors: '<span class="me">Cezar-Constantin Andrici</span>, Ștefan Ciobâcă, Cătălin Hrițcu, Guido Martínez, Exequiel Rivas,&nbsp;Éric Tanter and Théo Winterhalter.'
+  links:
+    - name: 'DOI'
+      url: 'https://doi.org/10.1145/3632916'
+    - name: 'Video'
+      url: 'https://www.youtube.com/watch?v=7jCChuyZHR4'
+    - name: 'PoP Up Video'
+      url: 'https://www.youtube.com/watch?v=BFyKX1li8Zw'
+    - name: 'Artifact'
+      url: 'https://zenodo.org/doi/10.5281/zenodo.10125015'
+  note: 'The artifact received the Functional and Reusable badges.'
+
+- venue: 'Mathematics 2022'
+  title: 'A Verified Implementation of the DPLL Algorithm in Dafny'
+  url: 'https://doi.org/10.3390/math10132264'
+  authors: '<span class="me">Cezar-Constantin Andrici</span> and Ștefan Ciobâcă.'
+  links:
+    - name: 'Artifact'
+      url: 'https://github.com/andricicezar/truesat'
+
+- venue: 'HOPE 2022'
+  title: 'Verifying non-terminating programs with IO in F* (Extended Abstract)'
+  url: 'https://theowinterhalter.github.io/res/iodiv-hope.pdf'
+  authors: '<span class="me">Cezar-Constantin Andrici</span>, Théo Winterhalter, Cătălin Hrițcu and Exequiel Rivas.'
+  links:
+    - name: 'Slides'
+      url: '/wp-content/uploads/2022/09/HOPE22_Andrici_Slides.pdf'
+    - name: 'Video'
+      url: 'https://www.youtube.com/watch?v=i6gfZteKAAw'
+    - name: 'Artifact'
+      url: 'https://github.com/andricicezar/fstar-io/tree/hope-submission'
+
+- venue: 'TYPES 2022'
+  title: 'Partial Dijkstra Monads for All (Extended Abstract)'
+  url: 'https://types22.inria.fr/files/2022/06/TYPES_2022_paper_18.pdf'
+  authors: 'Théo Winterhalter, <span class="me">Cezar-Constantin Andrici</span>, Cătălin Hrițcu, Kenji Maillard, Guido Martínez and Exequiel Rivas.'
+  links:
+    - name: 'Artifact'
+      url: 'https://github.com/TheoWinterhalter/pdm4all/releases/tag/types2022'
+
+- venue: 'FROM 2019'
+  title: 'Verifying the DPLL Algorithm in Dafny'
+  url: 'https://arxiv.org/abs/1909.01743'
+  authors: '<span class="me">Cezar-Constantin Andrici</span> and Ștefan Ciobâcă.'

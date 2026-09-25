@@ -1,0 +1,22 @@
+# Invited talks and conference presentations (newest first).
+# Same shape as _data/publications.yml — see _includes/entries.html.
+
+- venue: 'Aarhus 2026'
+  title: 'Secure extraction of verified effectful F* programs to ML'
+  url: '/wp-content/uploads/slides/Aarhus2026-slides.pdf'
+  where: 'At Aarhus University, April 13, 2026.'
+  links:
+    - name: 'Slides'
+      url: '/wp-content/uploads/slides/Aarhus2026-slides.pdf'
+
+- venue: 'ICFP SRC 2020'
+  title: 'Gradual Enforcement of IO Trace Properties at Student Research Competition'
+  where: 'At the 25th ACM SIGPLAN International Conference on Functional Programming (ICFP), August 2020.'
+  links:
+    - name: 'Video'
+      url: 'https://youtube.com/watch?v=fMkYhgFYQA0'
+  note: '🏆 First place winner of ICFP SRC 2020, graduate section.'
+
+- venue: 'UAIC 2020'
+  title: 'Verification of IO programs in F*'
+  where: 'At the Faculty of Computer Science, UAIC, January 2020.'

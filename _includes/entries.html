@@ -1,0 +1,26 @@
+{%- comment -%}
+  Renders a venue-in-the-left-gutter list.
+  Usage: {% include entries.html items=site.data.publications %}
+  Each item may set: venue, title, url, authors, where, note, links[{name,url}]
+{%- endcomment -%}
+
+<div class="entries">
+{%- for item in include.items %}
+  <div class="entry">
+    <div class="entry__venue">{{ item.venue }}</div>
+    <div class="entry__body">
+      <span class="entry__title">
+        {%- if item.url -%}<a href="{{ item.url }}">{{ item.title }}</a>{%- else -%}{{ item.title }}{%- endif -%}
+      </span>
+      {%- if item.authors %}<span class="entry__authors">{{ item.authors }}</span>{% endif -%}
+      {%- if item.where %}<span class="entry__where">{{ item.where }}</span>{% endif -%}
+      {%- if item.links %}
+      <span class="entry__links">
+        {%- for l in item.links %}<a href="{{ l.url | relative_url }}">{{ l.name }}</a>{% endfor -%}
+      </span>
+      {%- endif -%}
+      {%- if item.note %}<span class="entry__note">{{ item.note }}</span>{% endif -%}
+    </div>
+  </div>
+{%- endfor %}
+</div>

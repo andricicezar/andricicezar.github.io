@@ -1,0 +1,12 @@
+---
+layout: default
+---
+
+<article>
+  {% if page.title %}<h1 class="post__title">{{ page.title }}</h1>{% endif %}
+  {% if page.date %}<p class="post__date"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: '%B %-d, %Y' }}</time></p>{% endif %}
+
+  {{ content }}
+
+  {% if page.date %}<a class="backlink" href="{{ '/blog/' | relative_url }}">&larr; All posts</a>{% endif %}
+</article>

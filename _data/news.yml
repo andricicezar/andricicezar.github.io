@@ -1,0 +1,23 @@
+# News items shown on the home page (newest first).
+# `date` is free text shown in the left gutter; `text` may contain HTML.
+
+- date: 'Dec 2026'
+  text: 'I will <strong>defend my Ph.D.</strong> thesis: <a href="/wp-content/uploads/thesis/Andrici-PhD-Thesis.pdf"><em>Securing Verified Monadic F* Programs against Linked Unverified Code</em></a>.'
+
+- date: 'Aug&ndash;Oct 2026'
+  text: 'I am doing an internship at <strong>Microsoft Research</strong> in Cambridge, UK, working with <a href="https://www.sonho.fr/">Son Ho</a> on extending <a href="https://github.com/AeneasVerif/aeneas">Aeneas</a>, a toolchain for verifying Rust programs.'
+
+- date: 'Aug 2026'
+  text: 'I presented <a href="https://arxiv.org/pdf/2602.19973"><em>Misquoted No More: Securely Extracting F* programs with IO</em></a> at <strong>ICFP 2026</strong> in Indianapolis.'
+
+- date: 'Apr 2026'
+  text: 'I gave a talk on secure extraction of verified effectful F* programs to ML at <strong>Aarhus University</strong> (<a href="/wp-content/uploads/slides/Aarhus2026-slides.pdf">slides</a>).'
+
+- date: 'Feb 2026'
+  text: 'We released <a href="https://arxiv.org/pdf/2602.19973"><em>Misquoted No More</em></a>, my first paper in which AI agents took part in the proofs: <strong>Claude</strong> wrote about 10% of them!'
+
+- date: 'Oct 2025'
+  text: 'I presented <a href="https://arxiv.org/abs/2503.00404"><em>SecRef*: Securely Sharing Mutable References between Verified and Unverified Code in F*</em></a> at <strong>ICFP 2025</strong> in Singapore.'
+
+- date: 'Jan 2024'
+  text: 'I presented <a href="https://arxiv.org/abs/2303.01350"><em>Securing Verified IO Programs Against Unverified Code in F*</em></a> at <strong>POPL 2024</strong> in London.'

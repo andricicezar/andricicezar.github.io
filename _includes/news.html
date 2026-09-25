@@ -1,0 +1,14 @@
+{%- comment -%}
+  Renders a dated news list.
+  Usage: {% include news.html items=site.data.news %}
+  Each item sets: date, text (HTML allowed)
+{%- endcomment -%}
+
+<div class="entries">
+{%- for item in include.items %}
+  <div class="entry">
+    <div class="entry__venue">{{ item.date }}</div>
+    <div class="entry__body">{{ item.text }}</div>
+  </div>
+{%- endfor %}
+</div>

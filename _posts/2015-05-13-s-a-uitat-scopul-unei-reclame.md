@@ -29,9 +29,9 @@ Ma duceam spre Iulius si am vazut un afis mare de la Mark &amp; Spencer. “Vino
 Am vazut un afis publicitar pentru Romania TV doar cu logoul lor, nici macar un motto sau ceva. *Unde e motivul pentru care m-ar fi interesat sa ma uit la ei?* HBO si ACM in Iasi au reclame pe Casa de Cultura a Studentilor cu Game of Thrones, Fargo, Better call Saul si Breaking Bad si tipii astia cred ca un singur logo le rezolva problema de marketing?
 
 <figure markdown="1">
-[![Reclama Romania TV pe copou](/wp-content/uploads/2015/05/IMG_20150505_140512-1024x768.jpg)](/wp-content/uploads/2015/05/IMG_20150505_140512.jpg)<figcaption class="wp-caption-text" id="caption-attachment-50">Reclama Romania TV pe Copou, Iasi</figcaption></figure>
+[![Reclama Romania TV pe copou](/wp-content/uploads/2015/05/IMG_20150505_140512.jpg)](/wp-content/uploads/2015/05/IMG_20150505_140512.jpg)<figcaption class="wp-caption-text" id="caption-attachment-50">Reclama Romania TV pe Copou, Iasi</figcaption></figure>
 
-<figure aria-describedby="caption-attachment-51" class="wp-caption aligncenter" id="attachment_51" style="width: 768px" markdown="1">[![Reclama HBO Iulius Mall](/wp-content/uploads/2015/05/IMG_20150429_171326-768x1024.jpg "Reclama HBO Iulius Mall")](/wp-content/uploads/2015/05/IMG_20150429_171326.jpg)<figcaption class="wp-caption-text" id="caption-attachment-51">Reclama HBO, exemplu de asa da</figcaption></figure>
+<figure aria-describedby="caption-attachment-51" class="wp-caption aligncenter" id="attachment_51" style="width: 768px" markdown="1">[![Reclama HBO Iulius Mall](/wp-content/uploads/2015/05/IMG_20150429_171326.jpg "Reclama HBO Iulius Mall")](/wp-content/uploads/2015/05/IMG_20150429_171326.jpg)<figcaption class="wp-caption-text" id="caption-attachment-51">Reclama HBO, exemplu de asa da</figcaption></figure>
 
 ## De unde vine problema?
 

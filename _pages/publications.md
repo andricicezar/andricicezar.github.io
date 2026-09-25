@@ -1,23 +1,28 @@
 ---
-layout: single
-author_profile: true
 title: Papers & Talks
-years: [2024,2023,2022,2021,2020]
-permalink: /papers-talks
-toc: true 
+permalink: /papers-talks/
 ---
 
-<h2 id="#papers">Publications, drafts and extended abstracts</h2>
-<h3  id="2025" class="pubyear">2025</h3>
+## Publications
 
-| **Draft** | **SecRef<sup>★</sup>: Securely Sharing Mutable References Between Verified and Unverified Code in F<sup>★</sup>**.<br/> *Cezar-Constantin Andrici*, Danel Ahman, Cătălin Hrițcu, Ruxandra Icleanu, Guido Martínez, Exequiel Rivas, and Théo Winterhalter.<br/>[PrePrint](https://arxiv.org/abs/2503.00404). |
+{% include entries.html items=site.data.publications %}
 
-<h3  id="2024" class="pubyear">2024</h3>
+## Talks
 
-| **POPL'24** | [**Securing Verified IO Programs Against Unverified Code in F<sup>★</sup>**](https://doi.org/10.1145/3632916).<br/> *Cezar-Constantin Andrici*, Ștefan Ciobâcă, Cătălin Hrițcu, Guido Martínez, Exequiel Rivas,&nbsp;Éric Tanter and Théo Winterhalter. *The artifact received the Functional and Reusable badges.*<br/>[PrePrint](https://arxiv.org/abs/2303.01350). [Video](https://www.youtube.com/watch?v=7jCChuyZHR4). [Artifact](https://zenodo.org/doi/10.5281/zenodo.10125015) |
+{% include entries.html items=site.data.talks %}
 
-<h3  id="2022" class="pubyear">2022</h3>
+## Teaching
 
-|  | [**Who Verifies the Verifiers? A Computer-Checked Implementation of the DPLL Algorithm in Dafny.**](https://doi.org/10.3390/math10132264)<br/> *Cezar-Constantin Andrici* and Ștefan Ciobâcă. In *Mathematics 2022*, 10(13), 2264. <br/> [Artifact](https://github.com/andricicezar/truesat) |
-| **HOPE'22** | [**Verifying non-terminating programs with IO in F<sup>★</sup> (Extended Abstract)**](https://theowinterhalter.github.io/res/iodiv-hope.pdf).<br/> *Cezar-Constantin Andrici*, Théo Winterhalter, Cătălin Hrițcu and Exequiel Rivas. At the 10th ACM SIGPLAN Workshop on Higher-Order Programming with Effects. <br/> [Slides](https://cezarandrici.com/wp-content/uploads/2022/09/HOPE22_Andrici_Slides.pdf). [Video](https://www.youtube.com/watch?v=i6gfZteKAAw). [Artifact](https://github.com/andricicezar/fstar-io/tree/hope-submission) |
-| **TYPES'22** | [**Partial Dijkstra Monads for All (Extended Abstract)**](https://types22.inria.fr/files/2022/06/TYPES_2022_paper_18.pdf). <br/> Théo Winterhalter, *Cezar-Constantin Andrici*, Cătălin Hrițcu, Kenji Maillard, Guido Martínez and Exequiel Rivas. At the 28th International Conference on Types for Proofs and Programs. <br/> [Slides](https://types22.inria.fr/files/2022/06/TYPES_2022_slides_18.pdf). [Artifact](https://github.com/TheoWinterhalter/pdm4all/releases/tag/types2022) |
+<div class="entries">
+  <div class="entry"><div class="entry__venue">2024&ndash;2025</div><div class="entry__body">Proofs are Programs &mdash; Teaching Assistant, RUB, Bochum (Fall)</div></div>
+  <div class="entry"><div class="entry__venue">2023&ndash;2024</div><div class="entry__body">Functional Programming &mdash; Teaching Assistant, RUB, Bochum (Summer)</div></div>
+  <div class="entry"><div class="entry__venue">2020&ndash;2021</div><div class="entry__body">Logics in Computer Science &mdash; Teaching Assistant, UAIC, Iași (Fall)</div></div>
+</div>
+
+## Academic Service
+
+<div class="entries">
+  <div class="entry"><div class="entry__venue">Sub-reviewer</div><div class="entry__body">CPP&rsquo;26, ICFP&rsquo;25, POPL&rsquo;24, SP&rsquo;21</div></div>
+  <div class="entry"><div class="entry__venue">Artifact&nbsp;Evaluation</div><div class="entry__body">Committee member at POPL&rsquo;26, POPL&rsquo;23</div></div>
+  <div class="entry"><div class="entry__venue">Student&nbsp;Volunteer</div><div class="entry__body">POPL&rsquo;24, POPL&rsquo;23, ICFP&rsquo;22, PLDI&rsquo;20, POPL&rsquo;20, ETAPS&rsquo;19, FROM&rsquo;18</div></div>
+</div>

@@ -12,7 +12,7 @@ categories:
     - Uncategorized
 ---
 
-![Feature image](/wp-content/uploads/2020/04/IMG_20200413_145959-1-1024x533.jpg)
+![Feature image](/wp-content/uploads/2020/04/IMG_20200413_145959-1.jpg)
 
 Am vrut astazi sa scriu despre un rezultat dintr-un studiu care pe mine m-a entuziasmat. Am citit despre acest studiu in cartea [Despre Somn](https://l.profitshare.ro/l/7407648). Bineinteles, inainte sa scriu eu si sa imprastii prostii, am recitit secventa ca sa fiu sigur ca am inteles corect rezultatul, iar apoi am incercat sa gasesc studiul online.
 
