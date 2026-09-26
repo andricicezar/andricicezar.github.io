@@ -8,8 +8,11 @@
   url: 'https://arxiv.org/pdf/2602.19973'
   authors: '<span class="me">Cezar-Constantin Andrici</span>, Abigail Pribisova, Danel Ahman, Cătălin Hrițcu, Exequiel Rivas, and Théo Winterhalter.'
   links:
+    - name: 'DOI'
+      url: 'https://doi.org/10.1145/3828689'
     - name: 'Artifact'
       url: 'https://github.com/andricicezar/fstar-io/tree/icfp26/seiostar'
+  note: 'The artifact received the Functional and Reusable badges.'
 
 - venue: 'ICFP 2025'
   title: 'SecRef*: Securely Sharing Mutable References between Verified and Unverified Code in F*'
