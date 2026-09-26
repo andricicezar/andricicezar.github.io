@@ -22,7 +22,7 @@ and securely compiling verified code so that its guarantees survive when linked 
 I use AI agents every day to write both code and proofs,
 and I believe they will make verification cheap enough for all critical software.
 
-## Ongoing Work
+## Research Projects
 
 ### Verification of Rust programs with Aeneas
 
@@ -45,7 +45,7 @@ and [SecRef\*](https://github.com/andricicezar/fstar-io/tree/master/secrefstar) 
 Most recently, I developed [SEIO\*](https://github.com/andricicezar/fstar-io/tree/master/seiostar), which securely extracts F\* programs with IO
 to an OCaml-like language ([ICFP 2026](https://arxiv.org/pdf/2602.19973)).
 
-### Past: Verified SAT solving in Dafny
+### Verified SAT solving in Dafny
 
 Earlier, I built [TrueSAT](https://github.com/andricicezar/truesat), a verified implementation of the DPLL algorithm, the basis of modern SAT solvers,
 in [Dafny](https://dafny.org/), a verification-aware programming language
