@@ -12,8 +12,8 @@ We are asked to trust this software, and the companies and institutions behind i
 with our data and our safety, yet we have little evidence that it deserves that trust.
 As a growing share of code is written by AI, faster than anyone can review it, this gap only widens.
 
-Law and policy try to restore that trust, but compliance often turns into a formality
-that people neither understand nor believe protects them.
+Law and policy try to restore that trust by imposing liability for how our data is handled,
+but there is no way to monitor millions of systems that change faster than anyone can inspect them.
 Audits and testing help, but they struggle to keep up and cannot offer mathematical guarantees.
 Formal verification can: a machine-checked proof holds no matter who, or what, wrote the code.
 My research works toward making such guarantees practical for real programs:
