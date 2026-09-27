@@ -8,8 +8,9 @@ permalink: /
 My goal is to bring trust to digital systems.
 More of our lives run on software every day: our money, our identities, our public services, our votes,
 and soon the autonomous robots around us.
-We are asked to trust this software, and the companies and institutions behind it,
-with our data and our safety, yet we have little evidence that it deserves that trust.
+This transformation could greatly improve our lives, but only if we can trust this software
+with our digital and physical privacy and safety.
+Yet even as its use keeps growing, that trust is eroding, and people increasingly fear the dangers it poses.
 As a growing share of code is written by AI, faster than anyone can review it, this gap only widens.
 
 Law and policy try to restore that trust by imposing liability for how our data is handled,
