@@ -6,7 +6,7 @@
 - venue: 'Submitted to ESOP&rsquo;27'
   title: 'A Taxonomy of Predicate Transformer Monads for Specifying Monadic Programs'
   url: 'https://arxiv.org/abs/2610.23604'
-  authors: 'Abigail Pribisova, Yao Li, Cătălin Hrițcu, <span class="me">Cezar-Constantin Andrici</span>, Kenji Maillard, and Exequiel Rivas.'
+  authors: 'Abigail Pribisova, Yao Li, <span class="me">Cezar-Constantin Andrici</span>, Cătălin Hrițcu, Kenji Maillard, and Exequiel Rivas.'
 
 - venue: 'ICFP 2026'
   title: 'Misquoted No More: Securely Extracting F* programs with IO'
