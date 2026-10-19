@@ -14,15 +14,11 @@ author:
   name        : "Cezar-Constantin Andrici"
   role        : "Ph.D. Student"
   affiliation : "Max Planck Institute for Security and Privacy"
-  avatar      : "/assets/images/poza_profil_square-300x300.jpg"
+  avatar      : "/assets/images/profile.jpg"
   location    : "MPI-SP, Bochum, Germany"
   email       : "cezar.andrici@mpi-sp.org"
   cv          : "/wp-content/uploads/CV%20Andrici%20Cezar%20Constantin.pdf"
   links:
-    - label: "GitHub"
-      url  : "https://github.com/andricicezar"
-    - label: "ORCID"
-      url  : "https://orcid.org/0009-0002-7525-2440"
     - label: "LinkedIn"
       url  : "https://www.linkedin.com/in/cezar-andrici-49771663/"
 
@@ -36,6 +32,10 @@ navigation:
   #   url  : "/blog/"
   - title: "CV"
     url  : "/wp-content/uploads/CV%20Andrici%20Cezar%20Constantin.pdf"
+  - title: "GitHub"
+    url  : "https://github.com/andricicezar"
+  - title: "ORCID"
+    url  : "https://orcid.org/0009-0002-7525-2440"
 
 # --- Build ------------------------------------------------------------------
 
