@@ -18,7 +18,12 @@ author:
   location    : "MPI-SP, Bochum, Germany"
   email       : "cezar.andrici@mpi-sp.org"
   cv          : "/wp-content/uploads/CV%20Andrici%20Cezar%20Constantin.pdf"
-  links:
+  contact_links:         # shown next to the email on the home page
+    - label: "GitHub"
+      url  : "https://github.com/andricicezar"
+    - label: "ORCID"
+      url  : "https://orcid.org/0009-0002-7525-2440"
+  links:                 # shown in the footer
     - label: "LinkedIn"
       url  : "https://www.linkedin.com/in/cezar-andrici-49771663/"
 
@@ -26,16 +31,12 @@ author:
 # Links in the top bar, in order.
 
 navigation:
-  - title: "Papers & Talks"
+  - title: "Academic Activity"
     url  : "/papers-talks/"
   # - title: "Blog"       # disabled for now
   #   url  : "/blog/"
   - title: "CV"
     url  : "/wp-content/uploads/CV%20Andrici%20Cezar%20Constantin.pdf"
-  - title: "GitHub"
-    url  : "https://github.com/andricicezar"
-  - title: "ORCID"
-    url  : "https://orcid.org/0009-0002-7525-2440"
 
 # --- Build ------------------------------------------------------------------
 

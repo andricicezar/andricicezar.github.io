@@ -3,10 +3,9 @@
 # HTML is allowed in `authors`, `where` and `note`.
 # Wrap your own name in <span class="me">…</span> so it is underlined.
 
-- venue: 'Submitted'
+- venue: 'Submitted to ESOP&rsquo;27'
   title: 'A Taxonomy of Predicate Transformer Monads for Specifying Monadic Programs'
   url: 'https://arxiv.org/abs/2610.23604'
-  where: 'Submitted to ESOP&rsquo;27, October 2026.'
   authors: 'Abigail Pribisova, Yao Li, Cătălin Hrițcu, <span class="me">Cezar-Constantin Andrici</span>, Kenji Maillard, and Exequiel Rivas.'
 
 - venue: 'ICFP 2026'

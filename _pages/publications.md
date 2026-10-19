@@ -1,5 +1,5 @@
 ---
-title: Papers & Talks
+title: Academic Activity
 permalink: /papers-talks/
 ---
 

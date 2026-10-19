@@ -24,7 +24,8 @@
     </div>
 
     <div class="profile__contact">
-      {% if site.author.email %}<div><span class="label">Email:</span> <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></div>{% endif %}
+      {% if site.author.email %}<div><span class="label">Email:</span> <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>
+        {%- for link in site.author.contact_links %} &middot; <a href="{{ link.url }}">{{ link.label }}</a>{% endfor %}</div>{% endif %}
     </div>
   </div>
 
