@@ -4,6 +4,9 @@
 - date: 'Dec 2026'
   text: 'I will <strong>defend my Ph.D.</strong> thesis: <a href="/wp-content/uploads/thesis/Andrici-PhD-Thesis.pdf"><em>Securing Verified Monadic F* Programs against Linked Unverified Code</em></a>.'
 
+- date: 'Oct 2026'
+  text: 'We released <a href="https://arxiv.org/abs/2610.23604"><em>A Taxonomy of Predicate Transformer Monads for Specifying Monadic Programs</em></a>, introducing the first strongest postcondition monads for nondeterminism and nontermination.'
+
 - date: 'Aug&ndash;Oct 2026'
   text: 'I am doing an internship at <strong>Microsoft Research</strong> in Cambridge, UK, working with <a href="https://www.sonho.fr/">Son Ho</a> on extending <a href="https://github.com/AeneasVerif/aeneas">Aeneas</a>, a toolchain for verifying Rust programs.'
 

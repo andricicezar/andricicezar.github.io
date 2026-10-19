@@ -9,6 +9,8 @@ permalink: /papers-talks/
 
 ## Talks
 
+For the conference presentations of my papers, see the Slides and Video links under [Publications](#publications).
+
 {% include entries.html items=site.data.talks %}
 
 ## Teaching
